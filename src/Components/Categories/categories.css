@@ -1,0 +1,10 @@
+.card_category{
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.card_category:hover {
+    box-shadow: 0 0 20px 0 #ef3636;
+}

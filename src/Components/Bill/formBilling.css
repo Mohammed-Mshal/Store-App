@@ -1,0 +1,20 @@
+form.billing input[type='text']:focus{
+    outline: 0;
+}
+
+
+.type-bill .desc {
+    height: 0;
+    overflow-y: hidden;
+    opacity: 0;
+    transition: 1s opacity;
+    -webkit-transition: 1s opacity;
+    -moz-transition: 1s opacity;
+    -ms-transition: 1s opacity;
+    -o-transition: 1s opacity;
+}
+
+.type-bill .desc.show{
+    opacity: 1;
+    height: 100%;
+}

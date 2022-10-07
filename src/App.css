@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.testimonial .swiper-button-prev,
+.testimonial .swiper-button-next,
+.header_home .swiper-button-prev,
+.home .header_home .swiper-button-next {
+  background-color: #6c757d;
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.testimonial .swiper-button-prev,
+.testimonial .swiper-button-next {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.testimonial .swiper-button-prev::after,
+.testimonial .swiper-button-next::after,
+.home .header_home .swiper-button-prev::after,
+.home .header_home .swiper-button-next::after {
+  font-size: 18px;
+}
+
+.testimonial .swiper-pagination-bullet,
+.home .header_home .swiper-pagination-bullet {
+  background-color: #6c757d;
+  opacity: .5;
+  padding: 6px;
+}
+
+.testimonial .swiper-pagination-bullet-active,
+.home .header_home .swiper-pagination-bullet-active {
+  background-color: #ef3636;
+  opacity: 1;
+}
+
+.bg_red {
+  background-color: #ef3636;
+}
+
+.text_red {
+  color: #ef3636;
+}
+
+.border_red {
+  border: 1px solid #ef3636 !important;
 }

@@ -1,0 +1,13 @@
+.form_question textarea,
+.form_question input{
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.form_question textarea:focus,
+.form_question input:focus{
+    outline: 0;
+    box-shadow: 0 0 5px 0 #ef3636;
+}

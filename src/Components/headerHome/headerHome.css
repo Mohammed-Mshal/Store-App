@@ -1,0 +1,23 @@
+.home .header_home {
+    background: url('../../../public/peter-aroner-KRvPP5i7DWA-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.home .header_home::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: -1;
+}
+
+.home .header_home .container {
+    position: relative;
+    z-index: 2;
+}
+

@@ -1,0 +1,5 @@
+@media (min-width:1024px) {
+    .roles div:not(:last-child) {
+        border-right: 1px solid black;
+    }
+}

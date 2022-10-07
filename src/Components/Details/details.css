@@ -1,0 +1,10 @@
+.details_product img{
+    max-height: 400px;
+}
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 #ef3636;
+    color: #ef3636;
+}
