@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Store-App/static/css/main.119eabe8.css",
-    "main.js": "/Store-App/static/js/main.8feaadb7.js",
-    "static/media/peter-aroner-KRvPP5i7DWA-unsplash.webp": "/Store-App/static/media/peter-aroner-KRvPP5i7DWA-unsplash.1c3b76fbc4233336dc39.webp",
+    "main.css": "/Store-App/static/css/main.ee678d86.css",
+    "main.js": "/Store-App/static/js/main.596a150d.js",
     "static/media/george-pagan-iii-PsifAN6_z-k-unsplash.webp": "/Store-App/static/media/george-pagan-iii-PsifAN6_z-k-unsplash.80084ad2a6e3920dbea6.webp",
     "static/media/alice-donovan-rouse-yu68fUQDvOI-unsplash.webp": "/Store-App/static/media/alice-donovan-rouse-yu68fUQDvOI-unsplash.06265c338ba8fb678f64.webp",
     "static/media/IMG_٢٠٢٢٠٦٢٦_١١٤٧١٠.jpg": "/Store-App/static/media/IMG_٢٠٢٢٠٦٢٦_١١٤٧١٠.77e3dce64afd32603d8c.jpg",
     "static/media/LocationMap.webp": "/Store-App/static/media/LocationMap.76b55124ff51f9409f29.webp",
     "static/media/simon-kadula--gkndM1GvSA-unsplash.webp": "/Store-App/static/media/simon-kadula--gkndM1GvSA-unsplash.137baeb31823eebc06fd.webp",
+    "static/media/peter-aroner-KRvPP5i7DWA-unsplash (1).webp": "/Store-App/static/media/peter-aroner-KRvPP5i7DWA-unsplash (1).311c15ce429b3cc6227f.webp",
     "static/media/lennart-uecker-49bZDF_EgJU-unsplash.webp": "/Store-App/static/media/lennart-uecker-49bZDF_EgJU-unsplash.96049115a6296f251e40.webp",
     "static/media/thomas-serer-R_0rTS9ENnk-unsplash.webp": "/Store-App/static/media/thomas-serer-R_0rTS9ENnk-unsplash.b071279a375230cf5f95.webp",
     "static/media/clark-street-mercantile-P3pI6xzovu0-unsplash.webp": "/Store-App/static/media/clark-street-mercantile-P3pI6xzovu0-unsplash.0c2be8afc435b71abcdf.webp",
     "static/media/alexander-redl-d3bYmnZ0ank-unsplash.webp": "/Store-App/static/media/alexander-redl-d3bYmnZ0ank-unsplash.29a03c417de3ba38244a.webp",
     "static/media/charlesdeluvio-eR8qaAM6k1U-unsplash.webp": "/Store-App/static/media/charlesdeluvio-eR8qaAM6k1U-unsplash.4dd67118849c10c30475.webp",
     "index.html": "/Store-App/index.html",
-    "main.119eabe8.css.map": "/Store-App/static/css/main.119eabe8.css.map",
-    "main.8feaadb7.js.map": "/Store-App/static/js/main.8feaadb7.js.map"
+    "main.ee678d86.css.map": "/Store-App/static/css/main.ee678d86.css.map",
+    "main.596a150d.js.map": "/Store-App/static/js/main.596a150d.js.map"
   },
   "entrypoints": [
-    "static/css/main.119eabe8.css",
-    "static/js/main.8feaadb7.js"
+    "static/css/main.ee678d86.css",
+    "static/js/main.596a150d.js"
   ]
 }
