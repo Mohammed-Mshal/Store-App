@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Store-App/static/css/main.8620dd92.css",
-    "main.js": "/Store-App/static/js/main.d81fcb6d.js",
+    "main.js": "/Store-App/static/js/main.e70345bd.js",
     "static/media/peter-aroner-KRvPP5i7DWA-unsplash.jpg": "/Store-App/static/media/peter-aroner-KRvPP5i7DWA-unsplash.12b51d40f859a5c99416.jpg",
     "static/media/george-pagan-iii-PsifAN6_z-k-unsplash.jpg": "/Store-App/static/media/george-pagan-iii-PsifAN6_z-k-unsplash.aeec9b0316371054143a.jpg",
     "static/media/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg": "/Store-App/static/media/alice-donovan-rouse-yu68fUQDvOI-unsplash.c59b46fc59f292d4a040.jpg",
@@ -15,10 +15,10 @@
     "static/media/charlesdeluvio-eR8qaAM6k1U-unsplash.jpg": "/Store-App/static/media/charlesdeluvio-eR8qaAM6k1U-unsplash.4da7f47dde9bb76cff05.jpg",
     "index.html": "/Store-App/index.html",
     "main.8620dd92.css.map": "/Store-App/static/css/main.8620dd92.css.map",
-    "main.d81fcb6d.js.map": "/Store-App/static/js/main.d81fcb6d.js.map"
+    "main.e70345bd.js.map": "/Store-App/static/js/main.e70345bd.js.map"
   },
   "entrypoints": [
     "static/css/main.8620dd92.css",
-    "static/js/main.d81fcb6d.js"
+    "static/js/main.e70345bd.js"
   ]
 }
