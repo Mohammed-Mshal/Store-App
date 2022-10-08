@@ -17,7 +17,7 @@ function InfoContact() {
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{delay:.5}}
+          transition={{ delay: 0.5 }}
           className="information col-xl-4 col-md-8 col-10 mx-auto mx-xl-0 px-0"
         >
           <ul className="list-unstyled bg-dark px-md-4 px-2 py-md-5 py-3 m-0">
@@ -68,19 +68,15 @@ function InfoContact() {
             </li>
           </ul>
         </motion.div>
-        <motion.div
+        <motion.img
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
-          transition={{delay:.5}}
-          className="col-xl-8 col-md-8 col-10 mx-auto mx-xl-0 px-0"
-        >
-          <img
-            src={require(`../../imgs/LocationMap.jpg`)}
-            className="img-fluid h-100"
-            alt="Locations"
-            style={{ objectFit: "cover" }}
-          />
-        </motion.div>
+          transition={{ delay: 0.5 }}
+          src={require(`../../imgs/LocationMap.jpg`)}
+          className="img-fluid col-xl-8 col-md-8 col-10 mx-auto mx-xl-0 px-0"
+          alt="Locations"
+          style={{ objectFit: "cover", aspectRatio: "16/9" }}
+        />
       </div>
     </div>
   );

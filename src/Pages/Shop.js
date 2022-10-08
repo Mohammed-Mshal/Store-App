@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { containerVariants } from "../animation/variants";
 
 function Shop() {
+  
   return (
     <motion.div
       variants={containerVariants}

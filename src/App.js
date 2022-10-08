@@ -21,13 +21,15 @@ import ConfirmCheckout from "./Pages/ConfirmCheckout";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
-
   const dispatch = useDispatch();
+  const location=useLocation()
   useEffect(() => {
     dispatch(fetchProducts());
     dispatch(fetchCategory());
   }, []);
-  const location=useLocation()
+    useEffect(()=>{
+      window.scrollTo(0,0)
+    },[location])
   return (
     <div className="App">
       <NavComponent />

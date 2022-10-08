@@ -2,6 +2,7 @@ import React from "react";
 import "./headerSection.css";
 import { motion } from "framer-motion";
 function HeaderSection(props) {
+  
   return (
     <div
       className={`header_section ${props.background} py-5 text-white position-relative`}
