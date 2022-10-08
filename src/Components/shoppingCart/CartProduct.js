@@ -78,7 +78,7 @@ function Cart_Product(props) {
           </button>
         </div>
         <p className="text-muted fw-bold mb-0">
-          ${product.count * props.price}
+          ${(product.count * props.price).toFixed(2)}
         </p>
       </div>
     </motion.div>

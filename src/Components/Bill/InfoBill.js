@@ -34,7 +34,7 @@ function InfoBill() {
               key={ele.product.id}
             >
               <span>{ele.product.title}</span>
-              <span>${+ele.product.price * +ele.count}</span>
+              <span>${(+ele.product.price * +ele.count).toFixed(2)}</span>
             </p>
           );
         })}
