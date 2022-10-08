@@ -29,7 +29,7 @@ function HeaderHome() {
           </div>
           <div className="col-12 col-md-5 mb-3">
             <img
-              src={`https://kantsoft.in/assets/img/client/easy-shop.png`}
+              src={`https://www.pngall.com/wp-content/uploads/5/Online-Payment-Transparent.png`}
               className={`img-fluid`}
               alt=""
             />

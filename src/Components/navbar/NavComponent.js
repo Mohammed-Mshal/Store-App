@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
-import { AiOutlineHeart, AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineHeart } from "react-icons/ai";
 import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
 
