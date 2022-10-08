@@ -29,7 +29,7 @@ function HeaderHome() {
           </div>
           <div className="col-12 col-md-5 mb-3">
             <img
-              src={`https://www.pngall.com/wp-content/uploads/5/Online-Payment-Transparent.png`}
+              src={`../../imgs/Online-Payment-Transparent.png`}
               className={`img-fluid`}
               alt=""
             />
@@ -46,7 +46,7 @@ function HeaderHome() {
           </div>
           <div className="col-12 col-md-5 mb-3">
             <img
-              src={`https://img.cppng.com/download/2020-06/8-2-clothes-png-image.png`}
+              src={`../../imgs/8-2-clothes-png-image.png`}
               className={`img-fluid`}
               alt=""
             />

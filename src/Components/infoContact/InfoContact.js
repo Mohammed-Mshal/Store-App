@@ -72,7 +72,7 @@ function InfoContact() {
           initial={{ opacity: 0, x: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.5 }}
-          src={require(`../../imgs/LocationMap.jpg`)}
+          src={require(`../../imgs/LocationMap.webp`)}
           className="img-fluid col-xl-8 col-md-8 col-10 mx-auto mx-xl-0 px-0"
           alt="Locations"
           style={{ objectFit: "cover", aspectRatio: "16/9" }}

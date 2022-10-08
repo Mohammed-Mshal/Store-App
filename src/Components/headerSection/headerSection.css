@@ -6,30 +6,31 @@
 }
 
 .header_section.header_about {
-    background-image: url('../../imgs/george-pagan-iii-PsifAN6_z-k-unsplash.jpg');
+    background-image: url('../../imgs/george-pagan-iii-PsifAN6_z-k-unsplash.webp');
 }
 
 .header_section.header_shop {
-    background-image: url('../../imgs/lennart-uecker-49bZDF_EgJU-unsplash.jpg');
+    background-image: url('../../imgs/lennart-uecker-49bZDF_EgJU-unsplash.webp');
 }
 
 .header_section.header_shop_product {
-    background-image: url('../../imgs/clark-street-mercantile-P3pI6xzovu0-unsplash.jpg');
+    background-image: url('../../imgs/clark-street-mercantile-P3pI6xzovu0-unsplash.webp');
 }
 
 .header_section.header_contact {
-    background-image: url('../../imgs/alice-donovan-rouse-yu68fUQDvOI-unsplash.jpg');
+    background-image: url('../../imgs/alice-donovan-rouse-yu68fUQDvOI-unsplash.webp');
 }
 
 .header_section.shopping_cart {
-    background-image: url('../../imgs/thomas-serer-R_0rTS9ENnk-unsplash.jpg');
+    background-image: url('../../imgs/thomas-serer-R_0rTS9ENnk-unsplash.webp');
 }
 
 .header_section.wishlist_page {
-    background-image: url('../../imgs/charlesdeluvio-eR8qaAM6k1U-unsplash.jpg');
+    background-image: url('../../imgs/charlesdeluvio-eR8qaAM6k1U-unsplash.webp');
 }
+
 .header_section.proceed-checkout {
-    background-image: url('../../imgs/simon-kadula--gkndM1GvSA-unsplash.jpg');
+    background-image: url('../../imgs/simon-kadula--gkndM1GvSA-unsplash.webp');
 }
 
 .header_section::before {

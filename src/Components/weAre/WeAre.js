@@ -41,7 +41,7 @@ function WeAre() {
             boxShadow: `20px 20px 0 0 black`,
           }}
           className="img-fluid col-xl-5 col-lg-6 col-10  p-0 mx-auto mx-lg-0"
-          src={require(`../../imgs/alexander-redl-d3bYmnZ0ank-unsplash.jpg`)}
+          src={require(`../../imgs/alexander-redl-d3bYmnZ0ank-unsplash.webp`)}
         />
       </div>
     </div>
