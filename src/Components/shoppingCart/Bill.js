@@ -5,7 +5,7 @@ function Bill(props) {
   return (
     <motion.div
       initial={{ opacity: 0, x: 40 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 1 }}
       className="col-lg-4 py-md-5"
     >
@@ -24,16 +24,16 @@ function Bill(props) {
           <span>Total</span> <span>${(+props.totalCount + 15).toFixed(2)}</span>
         </h5>
       </div>
-      <div className="d-flex justify-content-between mt-4 ">
+      <div className="d-flex justify-content-between flex-column flex-md-row mt-4 ">
         <Link
           to={`/Store-App/proceed-checkout`}
-          className="btn btn-secondary fw-bold py-2"
+          className="btn btn-secondary fw-bold py-2 my-2 my-md-0"
         >
           Proceed To Checkout
         </Link>
         <Link
           to={`/shop/all-products`}
-          className="btn btn-light border_red fw-bold py-2"
+          className="btn btn-light border_red fw-bold py-2 my-2 my-md-0"
         >
           Continue Shopping
         </Link>

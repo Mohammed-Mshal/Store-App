@@ -17,7 +17,7 @@ function InfoBill() {
   }, [cartProduct]);
 
   return (
-    <div className="col-lg-4 py-md-5">
+    <div className="col-lg-4 py-md-5 d-flex flex-column ">
       <motion.div
         initial={{ opacity: 0, x: 40 }}
         animate={{ opacity: 1, x: 0 }}
@@ -127,7 +127,11 @@ function InfoBill() {
           </div>
         </div>
       </motion.div>
-      <Link to={`/Store-App/Confirm_checkout`} className="btn btn-secondary fw-bold py-2">
+
+      <Link
+        to={`/Store-App/Confirm_checkout`}
+        className="btn btn-secondary fw-bold py-2 my-2 w-50 mx-auto"
+      >
         Place Order
       </Link>
     </div>

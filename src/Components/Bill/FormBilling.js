@@ -9,28 +9,28 @@ function FormBilling() {
       transition={{ delay: 2 }}
       className="billing d-flex flex-column"
     >
-      <div className="d-flex justify-content-between my-3">
+      <div className="d-flex justify-content-between flex-column flex-md-row my-3">
         <input
           type={`text`}
           placeholder="Name*"
-          className="border_red flex-fill me-2 py-2 px-3 rounded-2"
+          className="border_red flex-fill me-md-2 mb-3 my-md-0 py-2 px-3 rounded-2"
         />
         <input
           type={`text`}
           placeholder="Surname*"
-          className="border_red flex-fill ms-2 py-2 px-3 rounded-2"
+          className="border_red flex-fill ms-md-2 mt-3 my-md-0 py-2 px-3 rounded-2"
         />
       </div>
-      <div className="d-flex justify-content-between my-3">
+      <div className="d-flex justify-content-between flex-column flex-md-row my-3">
         <input
           type={`text`}
           placeholder="Company Name"
-          className="border_red flex-fill me-2 py-2 px-3 rounded-2"
+          className="border_red flex-fill me-md-2 mb-3 my-md-0 py-2 px-3 rounded-2"
         />
         <input
           type={`text`}
           placeholder="Country*"
-          className="border_red flex-fill ms-2 py-2 px-3 rounded-2"
+          className="border_red flex-fill ms-md-2 mt-3 my-md-0 py-2 px-3 rounded-2"
         />
       </div>
       <input
