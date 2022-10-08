@@ -12,7 +12,7 @@ function CartProduct(props) {
       style={{ width: "18rem" }}
       className={`card my-3 border-0 mx-auto `}
     >
-      <img src={props.image} className={`card-img-top`} alt='img_product' style={{ height: `300px` }} />
+      <img src={props.image} className={`card-img-top mx-auto`} alt='img_product' style={{ width:'20  0px',height:'250px' }} />
       <Card.Body className="text-center d-flex flex-column justify-content-end align-items-center">
         <Card.Title>{props.title}</Card.Title>
         <p className="text_red fw-bolder">${props.price}</p>
