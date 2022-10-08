@@ -26,7 +26,7 @@ function Bill(props) {
       </div>
       <div className="d-flex justify-content-between mt-4 ">
         <Link
-          to={`/proceed-checkout`}
+          to={`/Store-App/proceed-checkout`}
           className="btn btn-secondary fw-bold py-2"
         >
           Proceed To Checkout

@@ -24,7 +24,7 @@ function OurProducts(props) {
               );
             })}
         </div>
-        <Link to={`/all-products`} className="btn btn-secondary px-5 mt-3">
+        <Link to={`/Store-App/shop/all-products`} className="btn btn-secondary px-5 mt-3">
           Show More
         </Link>
       </div>

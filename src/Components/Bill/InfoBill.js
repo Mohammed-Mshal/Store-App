@@ -127,7 +127,7 @@ function InfoBill() {
           </div>
         </div>
       </motion.div>
-      <Link to={`/Confirm_checkout`} className="btn btn-secondary fw-bold py-2">
+      <Link to={`/Store-App/Confirm_checkout`} className="btn btn-secondary fw-bold py-2">
         Place Order
       </Link>
     </div>

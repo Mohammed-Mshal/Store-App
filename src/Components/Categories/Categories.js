@@ -21,7 +21,7 @@ function Categories() {
             <p className="text-white-50">Pick a category you need</p>
           </div>
           <Link
-            to={`/shop/all-products`}
+            to={`/Store-App/shop/all-products`}
             className="text-decoration-none my-2 mx-3"
           >
             <CardCategory type={`All Products`} />
@@ -30,7 +30,7 @@ function Categories() {
             category.map((ele) => {
               return (
                 <Link
-                  to={`/shop/${ele}`}
+                  to={`/Store-App/shop/${ele}`}
                   key={ele}
                   className="text-decoration-none my-2 mx-3 "
                 >

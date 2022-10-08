@@ -33,15 +33,15 @@ function App() {
       <NavComponent />
       <AnimatePresence>
         <Routes location={location} key={location.key}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/shop/:category" element={<Shop />} />
-          <Route path="/products/:idProduct" element={<ShoppingProduct />} />
-          <Route path="/shopping-cart" element={<ShoppingCart />} />
-          <Route path="/wishlist" element={<WishlistPage />} />
-          <Route path="/proceed-checkout" element={<Checkout />} />
-          <Route path="/Confirm_checkout" element={<ConfirmCheckout />} />
+          <Route path="/Store-App" element={<Home />} />
+          <Route path="/Store-App/about" element={<About />} />
+          <Route path="/Store-App/contact" element={<Contact />} />
+          <Route path="/Store-App/shop/:category" element={<Shop />} />
+          <Route path="/Store-App/products/:idProduct" element={<ShoppingProduct />} />
+          <Route path="/Store-App/shopping-cart" element={<ShoppingCart />} />
+          <Route path="/Store-App/wishlist" element={<WishlistPage />} />
+          <Route path="/Store-App/proceed-checkout" element={<Checkout />} />
+          <Route path="/Store-App/Confirm_checkout" element={<ConfirmCheckout />} />
         </Routes>
       </AnimatePresence>
       <Footer />

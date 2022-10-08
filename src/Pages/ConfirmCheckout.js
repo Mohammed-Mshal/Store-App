@@ -28,7 +28,7 @@ function ConfirmCheckout() {
       </div>
       <div className="d-flex justify-content-center pt-4 pb-5">
         <Link
-          to={`/shop/all-products`}
+          to={`/Store-App/shop/all-products`}
           className="btn btn-secondary mb-5 px-5 py-2"
         >
           GO TO SHOP

@@ -33,7 +33,7 @@ function Footer() {
             <h5 className="text_red">INFORMATION</h5>
             <ul className="list-unstyled">
               <li className="my-4">
-                <Link to={`/about`} className="text-white text-decoration-none">
+                <Link to={`/Store-App/about`} className="text-white text-decoration-none">
                   About Store App
                 </Link>
               </li>
@@ -43,9 +43,9 @@ function Footer() {
                 </a>
               </li>
               <li className="my-4">
-                <a href="#contact" className="text-white text-decoration-none">
+                <Link to={`/Store-App/contact`} className="text-white text-decoration-none">
                   CONTACT US
-                </a>
+                </Link>
               </li>
             </ul>
           </li>
@@ -53,19 +53,19 @@ function Footer() {
             <h5 className="text_red">QUICK LINKS</h5>
             <ul className="list-unstyled">
               <li className="my-4">
-                <a href="#wishlist" className="text-white text-decoration-none">
+                <Link to={`/Store-App/wishlist`} className="text-white text-decoration-none">
                   Wishlist
-                </a>
+                </Link>
               </li>
               <li className="my-4">
-                <a href="#checkout" className="text-white text-decoration-none">
+                <Link to={`/Store-App/proceed-checkout`} className="text-white text-decoration-none">
                   Checkout
-                </a>
+                </Link>
               </li>
               <li className="my-4">
-                <a href="cart" className="text-white text-decoration-none">
+                <Link to={`/Store-App/shopping-cart`} className="text-white text-decoration-none">
                   cart
-                </a>
+                </Link>
               </li>
             </ul>
           </li>

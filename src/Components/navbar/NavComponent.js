@@ -24,7 +24,7 @@ function NavComponent() {
         className="container"
       >
         <Navbar.Brand>
-          <Link to="/" className="text-dark text-decoration-none fs-3">
+          <Link to="/Store-App/" className="text-dark text-decoration-none fs-3">
             Store App
           </Link>
         </Navbar.Brand>
@@ -32,25 +32,25 @@ function NavComponent() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto fs-5">
             <Link
-              to="/"
+              to="/Store-App/"
               className="text-dark text-decoration-none mx-lg-3 mx-auto my-2 my-lg-0"
             >
               Home
             </Link>
             <Link
-              to="/shop/all-products"
+              to="/Store-App/shop/all-products"
               className="text-dark text-decoration-none mx-lg-3 mx-auto my-2 my-lg-0"
             >
               Shop
             </Link>
             <Link
-              to="/about"
+              to="/Store-App/about"
               className="text-dark text-decoration-none mx-lg-3 mx-auto my-2 my-lg-0"
             >
               About
             </Link>
             <Link
-              to="/contact"
+              to="/Store-App/contact"
               className="text-dark text-decoration-none mx-lg-3 mx-auto my-2 my-lg-0"
             >
               Contact
@@ -60,7 +60,7 @@ function NavComponent() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto fs-5 d-flex flex-row justify-content-center">
             <Link
-              to="/shopping-cart"
+              to="/Store-App/shopping-cart"
               className="text-dark text-decoration-none mx-2 my-2 my-lg-0 position-relative"
             >
               <FiShoppingCart />
@@ -81,7 +81,7 @@ function NavComponent() {
               )}
             </Link>
             <Link
-              to="/wishlist"
+              to="/Store-App/wishlist"
               className="text-dark text-decoration-none mx-2 my-2 my-lg-0 position-relative"
             >
               <AiOutlineHeart />

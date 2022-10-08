@@ -16,7 +16,7 @@ function CartProduct(props) {
       <Card.Body className="text-center d-flex flex-column justify-content-end align-items-center">
         <Card.Title>{props.title}</Card.Title>
         <p className="text_red fw-bolder">${props.price}</p>
-        <Link to={`/products/${props.id}`} className="btn btn-dark">
+        <Link to={`/Store-App/products/${props.id}`} className="btn btn-dark">
           View Product
         </Link>
       </Card.Body>
