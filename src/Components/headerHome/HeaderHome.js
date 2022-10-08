@@ -30,7 +30,7 @@ function HeaderHome() {
           <div className="col-12 col-md-5 mb-3">
             <img
               src={`https://www.pngall.com/wp-content/uploads/5/Online-Payment-Transparent.png`}
-              className={`img-fluid`}
+              className={`img-fluid h-auto`}
               alt=""
             />
           </div>
