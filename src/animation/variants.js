@@ -4,7 +4,7 @@ export const containerVariants = {
   },
   visible: {
     opacity: 1,
-    transition: { delay: 0.5 },
+    transition: { duration: 0 },
   },
   exit: {
     x: "-100vw",
@@ -18,5 +18,3 @@ export const productsVariants = {
     scale: 1,
   },
 };
-
-

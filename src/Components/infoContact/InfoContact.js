@@ -15,7 +15,7 @@ function InfoContact() {
       ></div>
       <div className="container row flex-column-reverse flex-xl-row mx-auto my-5 justify-content-center">
         <motion.div
-          initial={{ opacity: 0, x: -40 }}
+          initial={{ opacity: 0, y: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.5 }}
           className="information col-xl-4 col-md-8 col-10 mx-auto mx-xl-0 px-0"
@@ -69,7 +69,7 @@ function InfoContact() {
           </ul>
         </motion.div>
         <motion.img
-          initial={{ opacity: 0, x: 40 }}
+          initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.5 }}
           src={require(`../../imgs/LocationMap.webp`)}
