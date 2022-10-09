@@ -3,6 +3,7 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { FiMail, FiMapPin } from "react-icons/fi";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
+
 function InfoContact() {
   return (
     <div className="info_contact position-relative py-5">
@@ -13,10 +14,10 @@ function InfoContact() {
           clipPath: `polygon(0% 0%, 100% 0%,100% 25%,0% 60%)`,
         }}
       ></div>
-      <div className="container row flex-column-reverse flex-xl-row mx-auto my-5 justify-content-center">
+      <div className="container row flex-column-reverse flex-xl-row mx-auto my-5 justify-content-center ">
         <motion.div
           initial={{ opacity: 0, y: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
           className="information col-xl-4 col-md-8 col-10 mx-auto mx-xl-0 px-0"
         >
@@ -70,12 +71,12 @@ function InfoContact() {
         </motion.div>
         <motion.img
           initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5 }}
           src={require(`../../imgs/LocationMap.webp`)}
           className="img-fluid col-xl-8 col-md-8 col-10 mx-auto mx-xl-0 px-0"
           alt="Locations"
-          style={{ objectFit: "cover", aspectRatio: "16/9" }}
+          style={{ objectFit: "fill", aspectRatio: "16/9" }}
         />
       </div>
     </div>
