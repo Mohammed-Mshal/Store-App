@@ -4,6 +4,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { changeCount, removeProductFromCart } from "../../store/Slices/cart";
 import { motion } from "framer-motion";
+import Swal from "sweetalert2";
 function Cart_Product(props) {
   const dispatch = useDispatch();
   const cartProduct = useSelector((state) => state.Cart);
@@ -30,7 +31,33 @@ function Cart_Product(props) {
       <div className="d-flex align-items-center">
         <button
           className="btn"
-          onClick={() => dispatch(removeProductFromCart(props.product))}
+          onClick={() => {
+            Swal.fire({
+              title: "Are you sure?",
+              text: "You won't be able to revert this!",
+              icon: "warning",
+              showCancelButton: true,
+              confirmButtonText: "Yes, delete it!",
+              cancelButtonText: "No, cancel!",
+              customClass: {
+                confirmButton: "btn btn-success mx-2",
+                cancelButton: "btn btn-danger mx-2",
+              },
+              buttonsStyling: false,
+
+              reverseButtons: true,
+            }).then((result) => {
+              if (result.isConfirmed) {
+                dispatch(removeProductFromCart(props.product));
+
+                Swal.fire(
+                  "Deleted!",
+                  "Your Product has been deleted.",
+                  "success"
+                );
+              }
+            });
+          }}
         >
           <ImCancelCircle />
         </button>

@@ -3,6 +3,7 @@ import Table from "react-bootstrap/Table";
 import { useDispatch, useSelector } from "react-redux";
 import { addProductToCart } from "../../store/Slices/cart";
 import { motion } from "framer-motion";
+import Swal from "sweetalert2";
 function Wishlist() {
   const wishlist = useSelector((state) => state.Wishlist);
   const cart = useSelector((state) => state.Cart);
@@ -20,12 +21,12 @@ function Wishlist() {
           </tr>
         </thead>
         <tbody>
-          {wishlist.map((ele,ind) => {
+          {wishlist.map((ele, ind) => {
             return (
               <motion.tr
                 initial={{ opacity: 0, y: -40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: ind/2 }}
+                transition={{ delay: ind / 2 }}
                 key={ele.id}
               >
                 <td className="d-flex align-items-center">
@@ -60,7 +61,19 @@ function Wishlist() {
                       });
                       return (
                         found === false &&
-                        dispatch(addProductToCart({ product: ele, count: 1 }))
+                        dispatch(
+                          addProductToCart({ product: ele, count: 1 })
+                        ) &&
+                        Swal.fire({
+                          position: "center",
+                          icon: "success",
+                          title: "Your Order Add To Cart",
+                          showConfirmButton: true,
+                          customClass: {
+                            confirmButton: "btn btn-success",
+                          },
+                          buttonsStyling: false,
+                        })
                       );
                     }}
                     className="btn btn-outline-success mx-md-2 my-2 my-md-0 px-md-4 px-1"

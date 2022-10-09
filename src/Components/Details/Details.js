@@ -3,6 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import { useDispatch, useSelector } from "react-redux";
 import { addProductToWishlist } from "../../store/Slices/wishlist";
 import { addProductToCart } from "../../store/Slices/cart";
+import Swal from "sweetalert2";
 
 import "./details.css";
 
@@ -47,7 +48,17 @@ function Details(props) {
                   found === false &&
                   dispatch(
                     addProductToCart({ product: props.product, count: 1 })
-                  )
+                  ) &&
+                  Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Your Order Add To Cart",
+                    showConfirmButton: true,
+                    customClass: {
+                      confirmButton: "btn btn-success",
+                    },
+                    buttonsStyling: false,
+                  })
                 );
               }}
               className="btn btn-outline-success mx-md-2 my-2 my-md-0 px-4"
@@ -59,6 +70,16 @@ function Details(props) {
                 wishlist.indexOf(props.product) === -1
                   ? () => {
                       dispatch(addProductToWishlist(props.product));
+                      Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "Your Order Add To Wishlist",
+                        showConfirmButton: true,
+                        customClass: {
+                          confirmButton: "btn btn-success",
+                        },
+                        buttonsStyling: false,
+                      });
                     }
                   : null
               }
